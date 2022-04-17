@@ -1,6 +1,6 @@
 public interface MultiplicationAlgorithm {
 
-    Matrix multiply(Matrix matrix1, Matrix matrix2);
+    int[][] multiply(int[][] matrix1, int[][] matrix2);
 
     String getName();
 

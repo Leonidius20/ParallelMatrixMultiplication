@@ -1,12 +1,12 @@
 public class Result {
 
-    private Matrix resultMatrix;
+    private int[][] resultMatrix;
 
-    public void setResultMatrix(Matrix resultMatrix) {
+    public void setResultMatrix(int[][] resultMatrix) {
         this.resultMatrix = resultMatrix;
     }
 
-    public Matrix getResultMatrix() {
+    public int[][] getResultMatrix() {
         return resultMatrix;
     }
 
